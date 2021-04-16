@@ -11,7 +11,7 @@ import { ToastrService } from 'ngx-toastr';
   providedIn: 'root',
 })
 export class ClientesService {
-  private URL: string = environment.URL;
+  private URL: string = environment.URL1;
 
   constructor(private http: HttpClient, private toastr: ToastrService) {}
 
